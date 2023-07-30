@@ -1,0 +1,81 @@
+/* featured.css */
+
+.featured {
+  flex: 4;
+  width: 100%; /* Set the full width */
+  background-color: #fff; /* Add a background color */
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.featured .top .title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.featured .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.featured .bottom .featuredChart {
+  width: 100px;
+  height: 100px;
+}
+
+.featured .bottom .title {
+  font-weight: 500;
+  color: #555;
+  font-size: 16px;
+}
+
+.featured .bottom .amount {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.featured .bottom .desc {
+  font-weight: 300;
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+}
+
+.featured .bottom .summary {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featured .bottom .summary .item {
+  text-align: center;
+}
+
+.featured .bottom .summary .item .itemTitle {
+  font-size: 14px;
+  color: #777;
+  font-weight: 500;
+}
+
+.featured .bottom .summary .item .itemResult {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.featured .bottom .summary .item .itemResult.positive {
+  color: green;
+}
+
+.featured .bottom .summary .item .itemResult.negative {
+  color: red;
+}
+.para{
+  color: gray;
+  margin-bottom: 10px;
+}

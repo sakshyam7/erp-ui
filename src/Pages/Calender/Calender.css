@@ -1,0 +1,94 @@
+.calender {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.calender > div {
+  width: 90%;
+  max-width: 1100px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Apply styles to the FullCalendar component */
+.fc {
+  font-family: 'Arial', sans-serif;
+}
+
+.fc-toolbar {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+}
+
+.fc-toolbar .fc-button-group {
+  margin-right: 10px;
+}
+
+.fc-toolbar-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.fc-view-harness.fc-view-harness-active .fc-daygrid-day.fc-day-today {
+  background-color: #e6f7ff;
+  border-radius: 50%;
+}
+
+.fc-daygrid-event {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.fc-daygrid-event:hover {
+  background-color: #0056b3;
+}
+
+.fc-daygrid-more {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.fc-daygrid-more:hover {
+  background-color: #0056b3;
+}
+
+/* Style the buttons in the toolbar */
+.fc-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.fc-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the "Today" button specifically */
+.fc-today-button {
+  background-color: #28a745;
+  margin-right: 5px;
+}
+
+.fc-today-button:hover {
+  background-color: #218838;
+}
